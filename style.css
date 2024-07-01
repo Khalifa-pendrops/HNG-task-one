@@ -13,6 +13,17 @@ body {
     flex-direction: column;
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    margin: 4rem 0;
+
+}
+
 header nav {
     background-color: rgb(58, 39, 77);
     display: flex;
@@ -104,16 +115,16 @@ li a {
     gap: .4rem;
 }
 
-.slack_email{
+.slack_email {
     font-size: .8rem;
 }
 
-.links{
+.links {
     display: flex;
     justify-content: space-between;
 }
 
-.links a{
+.links a {
     color: rgb(58, 39, 77);
     border: none;
     padding: .1rem .3rem;
@@ -121,7 +132,8 @@ li a {
     border-radius: 3px;
 }
 
-.goals, #contact{
+.goals,
+#contact {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -132,26 +144,28 @@ li a {
     margin: 4rem auto;
 }
 
-.goals{
+.goals {
     background-color: rgb(58, 39, 77);
     color: #fff;
 }
 
-.left_about h3, .goals h3, #contact h3{
+.left_about h3,
+.goals h3,
+#contact h3 {
     font-size: 1.4rem;
 }
 
-.goals_list li{
+.goals_list li {
     list-style: disc;
     line-height: 1.8;
 }
 
-.socials{
+.socials {
     display: flex;
     gap: 2rem;
 }
 
-.footer_section{
+.footer_section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -160,3 +174,71 @@ li a {
     padding: 1rem 0;
 }
 
+
+/* MEDIA QURY!!! */
+
+@media (max-width: 480px) {
+    header h1 {
+        margin: 2rem 0;
+    }
+
+    header nav {
+        flex-direction: column;
+        padding: .8rem 1rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: .5rem;
+    }
+
+    .about {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    #about h2 {
+        margin: 1rem 0;
+    }
+
+    .left_about h3 {
+        font-size: 1rem;
+    }
+
+    .left_about p {
+        font-size: .6rem;
+        border: 1px solid;
+        width: 15rem;
+
+    }
+
+    .left_about p {
+        width: 90%;
+        padding: 0 1rem;
+    }
+
+
+.right_about{
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .links {
+       font-size: .8rem;
+        gap: .5rem;
+    }
+
+    .socials {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+
+}
