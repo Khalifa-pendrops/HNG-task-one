@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header data-test-id="header">
+      <nav>
+        <h3>khali<span>Fa</span></h3>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#goals">Goals</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="profile_btn"><a href="#about">Profile</a></button>
+      </nav>
+      <h1>This is MY Tech goals for the next two years!</h1>
+    </header>
+    <main>
+      <section id="about" data-test-id="about">
+        <h2>About me</h2>
+        <div class="about">
+          <div class="left_about">
+            <h3>Brief Introduction</h3>
+            <p>
+              Hello there! I am
+              <span data-test-id="slackDisplayName">Chikezie Ilodigwe.</span> I
+              am a result-driven and enthusiastic Frontend Developer with
+              current expertise in HTML, CSS, JavaScript, Tailwind CSS and
+              React.js. I am committed to staying current with industry trends
+              and my passion for learning drives my continuous learning and
+              professional growth.
+            </p>
+          </div>
+          <div class="right_about">
+            <h3>Profile</h3>
+            <img
+              data-test-id="slackProfilePicture"
+              src="./asset/profile.jpg"
+              alt="profile"
+            />
+            <div class="profile_details">
+              <h3 data-test-id="slackDisplayName">
+                Slack Name: Chikezie Ilodigwe
+              </h3>
+              <p data-test-id="currentTimeUTC">Current Time in UTC: <span id="current_time"></span></p>
+              <p data-test-id="currentDay">Current Day of the Week: <span id="current_day"></span></p>
+              <p data-test-id="slackEmail">Slack Email: <span class="slack_email"><i>dikee5200@gmail.com</i></span></p>
+            </div>
+            <div class="links">
+              <a data-test-id="" href="hng.tech/learn">hng</a>
+              <a data-test-id="" href="http://keyword.dog/">keyword</a>
+              <a data-test-id="" href="http://scrapeanyweb.site/"
+                >scrapeanyweb</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="goals">
+        <div class="goals">
+          <h3>My Goals in Tech in the next two years.</h3>
+          <p>in the next two years, i wish to;</p>
+          <ul class="goals_list">
+            <li>perfect my skills in HTML and CSS through projects</li>
+            <li>know and become ptoficient in JavaScript</li>
+            <li>master React and its frameworks</li>
+            <li>perfect my skills in Tailwind CSS</li>
+            <li>learn and master Python and its framework - langChain</li>
+          </ul>
+        </div>
+      </section>
+      <section id="contact">
+        <h3>You can reach me at;</h3>
+        <div class="socials">
+          <a href="mailto: dikee5200@gmail.com"
+            ><img src="./asset/icons8-email-50.png" alt="email"
+          /></a>
+          <a href="https://github.com/Khalifa-pendrops"
+            ><img src="./asset/icons8-github-50.png" alt="github"
+          /></a>
+          <a href="https://x.com/bin_P3ndrops?t=wCNGCSd6IXiJSdRLS9sQYQ&s=09">
+            <img src="./asset/icons8-twitter-60.png" alt="twitter"
+          /></a>
+        </div>
+      </section>
+      <footer class="footer_section">&copy; Chikezie Ilodigwe
+        <p id="current_year"></p>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
