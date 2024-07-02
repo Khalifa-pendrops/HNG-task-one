@@ -220,6 +220,7 @@ main{
     nav ul {
         font-size: .6rem;
         gap: .8rem;
+        white-space: nowrap;
     }
 
     .profile_btn {
@@ -252,7 +253,9 @@ main{
 
     .left_about p {
         font-size: .6rem;
-        padding: 0 3rem;
+        padding: 0 4rem;
+        border: 1px solid;
+        line-height: 1.8;
     }
 
 
