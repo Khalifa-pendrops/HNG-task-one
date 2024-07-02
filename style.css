@@ -11,6 +11,8 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    overflow-x: auto;
+
 }
 
 header {
@@ -71,6 +73,12 @@ li a {
     color: rgb(58, 39, 77);
     font-weight: 600;
     cursor: pointer;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 #about {
@@ -178,7 +186,7 @@ li a {
 }
 
 
-/* MEDIA QURY!!! */
+/* MEDIA QUERY!!! */
 
 @media (max-width: 480px) {
 
@@ -212,6 +220,11 @@ li a {
     .profile_btn {
         padding: 0 .2rem;
         font-size: .8rem;
+    }
+
+    main{
+        width: 100%;
+        overflow-x: hidden;
     }
 
     #about {
@@ -254,6 +267,10 @@ li a {
         gap: .5rem;
     }
 
+
+    #goal{
+        width: 100%;
+    }
 
     .goals h3 {
         font-size: 1rem;
