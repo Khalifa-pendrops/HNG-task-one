@@ -203,6 +203,7 @@ main{
         margin-top: 4rem;
         font-size: .9rem;
         padding: 0 1rem;
+        text-align: center;
     }
 
     header nav {
@@ -212,6 +213,10 @@ main{
         width: 100%;
     }
 
+    nav h3{
+        font-size: .8rem;
+    }
+
     nav ul {
         font-size: .6rem;
         gap: .8rem;
@@ -219,7 +224,7 @@ main{
 
     .profile_btn {
         padding: 0 .2rem;
-        font-size: .8rem;
+        font-size: .6rem;
     }
 
     main{
@@ -247,7 +252,7 @@ main{
 
     .left_about p {
         font-size: .6rem;
-        padding: 0 2rem;
+        padding: 0 3rem;
     }
 
 
