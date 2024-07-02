@@ -219,7 +219,7 @@ main{
 
     nav ul {
         font-size: .6rem;
-        gap: .8rem;
+        gap: .95rem;
         white-space: nowrap;
     }
 
@@ -254,8 +254,10 @@ main{
     .left_about p {
         font-size: .6rem;
         padding: 0 4rem;
-        border: 1px solid;
         line-height: 1.8;
+        width: 84%;
+        height: auto;
+        align-self: center;
     }
 
 
@@ -331,13 +333,14 @@ main{
 
 
     nav ul {
-        font-size: .8rem;
+        font-size: .7rem;
         gap: 1rem;
+        white-space: nowrap;
     }
 
     .profile_btn {
         padding: 0 .2rem;
-        font-size: .8rem;
+        font-size: .7rem;
     }
 
     #about {
@@ -359,7 +362,7 @@ main{
     }
 
     .left_about p {
-        font-size: .9rem;
+        font-size: .8rem;
         padding: 0 2rem;
         width: 100%;
     }
