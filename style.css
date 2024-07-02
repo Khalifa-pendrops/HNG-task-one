@@ -24,6 +24,7 @@ header {
 
 header h1 {
     margin: 4rem 0;
+    text-align: center;
 
 }
 
@@ -75,7 +76,7 @@ li a {
     cursor: pointer;
 }
 
-main{
+main {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -84,6 +85,7 @@ main{
 #about {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 2rem;
@@ -185,6 +187,11 @@ main{
     padding: 1rem 0;
 }
 
+#current_year{
+    margin-left: .4rem;
+    color: rgb(142, 44, 240);
+}
+
 
 /* MEDIA QUERY!!! */
 
@@ -213,7 +220,7 @@ main{
         width: 100%;
     }
 
-    nav h3{
+    nav h3 {
         font-size: .8rem;
     }
 
@@ -228,7 +235,7 @@ main{
         font-size: .6rem;
     }
 
-    main{
+    main {
         width: 100%;
         overflow-x: hidden;
     }
@@ -278,7 +285,7 @@ main{
     }
 
 
-    #goal{
+    #goal {
         width: 100%;
     }
 
