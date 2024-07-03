@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header data-test-id="header">
+    <header data-testid="header">
       <nav>
         <h3>khali<span>Fa</span></h3>
         <ul>
@@ -21,14 +21,14 @@
       <h1>Welcome! This is my Tech goals for the next two years.</h1>
     </header>
     <main>
-      <section id="about" data-test-id="about">
+      <section id="about" data-testid="about">
         <h2>About me</h2>
         <div class="about">
           <div class="left_about">
             <h3>Brief Introduction</h3>
             <p>
               Hello there! I am
-              <span data-test-id="slackDisplayName">Chikezie Ilodigwe.</span> I
+              <span data-testid="slackDisplayName">Chikezie Ilodigwe.</span> I
               am a result-driven and enthusiastic Frontend Developer with
               current expertise in HTML, CSS, JavaScript, Tailwind CSS and
               React.js. I am committed to staying current with industry trends
@@ -39,22 +39,31 @@
           <div class="right_about">
             <h3>Profile</h3>
             <img
-              data-test-id="slackProfilePicture"
+              data-testid="slackProfilePicture"
               src="./asset/profile.jpg"
               alt="profile"
             />
             <div class="profile_details">
-              <h3 data-test-id="slackDisplayName">
+              <h3 data-testid="slackDisplayName">
                 Slack Name: Chikezie Ilodigwe
               </h3>
-              <p data-test-id="currentTimeUTC">Current Time in UTC: <span id="current_time"></span></p>
-              <p data-test-id="currentDay">Current Day of the Week: <span id="current_day"></span></p>
-              <p data-test-id="slackEmail">Slack Email: <span class="slack_email"><i>dikee5200@gmail.com</i></span></p>
+              <p data-testid="currentTimeUTC">
+                Current Time in UTC: <span id="current_time"></span>
+              </p>
+              <p data-testid="currentDay">
+                Current Day of the Week: <span id="current_day"></span>
+              </p>
+              <p data-testid="slackEmail">
+                Slack Email:
+                <span class="slack_email"><i>dikee5200@gmail.com</i></span>
+              </p>
             </div>
             <div class="links">
-              <a data-test-id="hngLink" href="hng.tech/learn">hng</a>
-              <a data-test-id="keywordLink" href="http://keyword.dog/">keyword</a>
-              <a data-test-id="scrapeanywebLink" href="http://scrapeanyweb.site/"
+              <a data-testid="hngLink" href="hng.tech/learn">hng</a>
+              <a data-testid="keywordLink" href="http://keyword.dog/"
+                >keyword</a
+              >
+              <a data-testid="scrapeanywebLink" href="http://scrapeanyweb.site/"
                 >scrapeanyweb</a
               >
             </div>
@@ -88,7 +97,8 @@
           /></a>
         </div>
       </section>
-      <footer class="footer_section">&copy; Chikezie Ilodigwe 
+      <footer class="footer_section">
+        &copy; Chikezie Ilodigwe
         <span id="current_year"></span>
       </footer>
     </main>
